@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutMemories"
+    android:layout_width="350dp"
+    android:layout_height="410dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:background="@drawable/mem_bg"
+    android:elevation="5dp"
+    android:outlineSpotShadowColor="@color/red"
+    android:padding="1dp">
+
+
+    <ImageView
+        android:id="@+id/allMenuImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jeniffer"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/allMenuTitle"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allMenuImage"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center"
+        android:lineHeight="23dp"
+        android:text="@string/jeniffer_aniston"
+        android:textColor="#CD5C5C"
+        android:textSize="15sp" />
+
+    <RatingBar
+        android:id="@+id/allMenuRating"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_marginTop="5dp"
+        android:progressBackgroundTint="#E67E22"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/allMenuTitle"
+        android:progressTint="#F1C40F"
+        android:rating="3" />
+
+        <TextView
+            android:id="@+id/allMenuDesc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/allMenuRating"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="1dp"
+            android:text="@string/very_delicious" />
+
+    <!--    </LinearLayout>-->
+
+
+</RelativeLayout>

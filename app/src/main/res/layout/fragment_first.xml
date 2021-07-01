@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F7F9F9"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="330dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <TextView
+                        android:id="@+id/desc_new"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:elevation="5dp"
+                        android:fontFamily="@font/reem_kufi"
+                        android:layout_marginStart="10dp"
+                        android:textColor="#7B6B64"
+                        android:gravity="center"
+                        android:text="@string/our_new_products"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+
+                    <ImageView
+                        android:id="@+id/sales_image_explain"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/onsales_bg"
+                        android:elevation="7dp"
+                        android:outlineSpotShadowColor="#8D766C"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:src="@drawable/new_main"
+                        tools:ignore="ContentDescription">
+
+
+                    </ImageView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView_salesImages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        android:elevation="4dp"
+                        android:outlineSpotShadowColor="@color/red"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_toEndOf="@+id/sales_image_explain" />
+
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <TextView
+                    android:id="@+id/btnMem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:elevation="5dp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:textColor="#7B6B64"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/see_all_memories"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:id="@+id/memories_image_explain"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/memories_bg"
+                    android:elevation="7dp"
+                    android:orientation="vertical"
+                    android:outlineSpotShadowColor="#8D766C"
+                    android:padding="12dp"
+                    android:src="@drawable/memories_comment_bg"
+                    tools:ignore="ContentDescription" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_memoriesImages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_toStartOf="@id/memories_image_explain"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/makeReservation"
+                    android:text="@string/make_reservation"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:gravity="center"
+                    android:background="@drawable/last_version_of_button"
+                    android:layout_centerHorizontal="true"
+                    app:backgroundTint="#7B6B64"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

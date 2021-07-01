@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Verify_OTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/reem_kufi"
+            android:includeFontPadding="false"
+            android:text="@string/code_ver_f_cat_on"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_enter_the_one_time_code_sent_on_your_phone"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:fontFamily="@font/reem_kufi"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+        <com.chaos.view.PinView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            app:itemCount="4"
+            app:itemWidth="30dp"
+            app:itemHeight="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:cursorVisible="true"
+            style="@style/PinWidget.PinView"
+            app:hideLineWhenFilled="true"
+            app:itemRadius="5dp"
+            app:lineColor="#B3B6B7"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verify_code"
+            android:background="@drawable/edit_txt"
+            app:backgroundTint="#CD5C5C"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

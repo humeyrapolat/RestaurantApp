@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="8dp"
+    app:cardCornerRadius="40dp"
+    app:cardBackgroundColor="#ffffff"
+    app:cardElevation="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/rl_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:weightSum="5"
+        tools:ignore="DisableBaselineAlignment">
+
+
+        <ImageView
+            android:id="@+id/cart_img"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/cakelogo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.8"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+
+                <TextView
+                    android:id="@+id/cart_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/reem_kufi"
+                    android:text="@string/cake"
+                    android:textColor="#000000"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/favRecycler_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cart_title"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/reem_kufi"
+                    android:text="@string/_1"
+                    android:textSize="13sp" />
+
+
+                <TextView
+                    android:id="@+id/favRecycler_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/favRecycler_price"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/reem_kufi"
+                    android:textStyle="bold"
+                    android:text="@string/_10"
+                    android:textSize="13sp" />
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="15dp"
+                android:backgroundTint="#D0D3D4"
+                android:elevation="5dp"
+                android:padding="2dp"
+                android:src="@drawable/cancel"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

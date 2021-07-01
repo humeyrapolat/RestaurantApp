@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="200dp"
+    android:layout_margin="15dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="40dp">
+
+
+    <LinearLayout
+        android:id="@+id/fav_linearLayout"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/removeFavorites"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="#D0D3D4"
+            android:elevation="5dp"
+            android:onClick="remove"
+            android:src="@drawable/cancel"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/fav_r_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/cakelogo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/fav_r_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/reem_kufi"
+            android:text="@string/cake"
+            android:textColor="#C0392B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fav_r_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/reem_kufi"
+            android:text="@string/_1"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

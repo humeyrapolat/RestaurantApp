@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sales_layout"
+    android:layout_width="160dp"
+    android:layout_height="240dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/recyclerview_background"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:outlineSpotShadowColor="#B5A8A2"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:id="@+id/sales_images"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:padding="3dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/brownie_sales"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/sales_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/reem_kufi"
+        android:gravity="center"
+        android:text="@string/brownie"
+        android:textColor="#CD5C5C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

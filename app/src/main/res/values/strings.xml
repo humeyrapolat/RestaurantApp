@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RestaurantApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">First fragment</string>
+    <string name="Price"><font size="25" /> \Price :\</string>
+    <string name="username">Username</string>
+    <string name="your_email">Your Email</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="policy">PRIVACY POLICY With this Privacy Policy, you agree that you are informed on processing and use of your personal data and consent to use of your personal data as detailed herein.
+This Privacy Policy contains the terms and conditions of use of personal data shared with Humeyra Patisserie Elektronik İletişim Tanıtım Pazarlama Gıda Sanayi ve Ticaret A.Ş. (“Humeyra Patisserie”) by users/members/visitors (“Data Owners”) of the web site www.humeyra’spatisserie com (“Site”)/Mobile applications or the personal data collected by Humeyra Patisserie during the operation of the Site/Mobile applications during the Data Owner’s use of the Site.
+Which Data are Processed?
+Your personal data processed by Humeyra Patisserie is categorized according to the Law for Protection of Personal Data (“Law”) as provided for in the following. Unless expressly stated otherwise, the terms "personal data" under the terms and conditions of this Privacy Policy shall cover the following information.
+•	Identity and Contact Information: name, surname, phone, address, workplace information, e-mail address
+•	Information About the User, User Transaction Data and Financial Information: membership data, membership ID number, data on the date and time of using Humeyra Patisserie services, reasons for communication with Humeyra Patisserie Live Help, terms you use when searching at the Site and filtering preferences, scores and remarks, food preferences, categories of restaurants you have visited, errors during use, invoice and payment information, balance information (such as bills sent to the user and vouchers showing payments received from users, such as invoice number, invoice amount, invoice date, etc.).
+•	Location Information: Specific or approximate location information about your location, such as GPS data, that we have received while using the services of Humeyra Patisserie
+•	.Transaction Security Information: log in credential information, password information
+•	Marketing Information: reports and evaluations showing your habits and likes, targeting information, and information on cookie records, etc.
+•	Demand / Complaint Management Information: Requests and complaints you make through the Site and your comments on the Site
+•	Risk Management Information: IP address
+Data anonymized under Articles 3 and 7 of the Law will not be considered as personal data in accordance with the provisions of the said law and the processing of such data will be conducted without being bound with the provisions of this Privacy Policy.
+For the application on whether your data is being processed, please see ‘Processing and Protection of Personal Data (PPPD Policy).
+What is the Purpose of Use of Your Data?
+Personal data you share with Humeyra Patisserie may be processed for making your membership registration on the Site, updating the membership registration, conducting commercial activities including improvement of the services offered by Humeyra Patisserie and providing new services through the Site, and providing you with information on these activities, determining and implementing commercial and business strategies, ensuring legal and commercial security of the persons who are in business relationship with Humeyra Patisserie and providing necessary information to you and fulfilling responsibilities arising from the nature of these activities to allow you to utilize the services provided through the Site or via the Mobile Application.
+
+Such personal information may be used to communicate with you or to improve your experience on the Site or on the mobile application (such as managing the communication management process, conducting research on customer satisfaction, etc.), and also to perform internal reporting and business development, and to make various statistical evaluations without disclosing your identity, to create database and perform market research. This information can be processed, stored and transmitted to third parties by Humeyra Patisserie for the purposes of direct marketing, digital marketing, remarketing, targeting, profiling and analysis, and you may be contacted for promotion, maintenance and support activities on various applications, products via the aforementioned information.
+Humeyra Patisserie will also be able to process and share your personal data with third parties, pursuant to Articles 5 and 8 of the Law, and/or in the presence of exceptions under the applicable law, without obtaining your consent as Data Owner. Such conditions mainly include:
+•	If clearly prescribed in the law,
+•	If necessary to protect the life or physical integrity of a person or third parties, where the person is unable to explain his consent or the consent of such person is not legally accepted,
+•	If the processing of personal data is required for performance or execution of an agreement between the Data Owner and Humeyra Patisserie,
+•	If it is compulsory for Humeyra Patisserie to fulfill its legal obligations,
+•	If it has been revealed to the public by the Data Owner,
+•	If its compulsory for the establishment, use or protection of a right,
+•	Data must be processed for the legitimate interests of Humeyra Patisserie, provided that it does not jeopardize fundamental rights and freedoms of the Data Owner.
+As mentioned above, Humeyra Patisserie will be able to use cookies and transmit data to third parties for processing purposes only to the extent required by such third party to generate analysis services based on the data in question. The technical communication files mentioned above are the small text files that the Site sends to the browser of the Data Owner for storage in the main memory. The technical communication file makes the use of the Site more convenient by storing status and preference settings for the website. The technical communication file is designed and used for helping to generate statistical information on the number of people who use internet sites in what proportion of the time, the number of times a person visits a website, the number of times they have visited a particular website, the amount of time they have stayed at the site; and to dynamically generate advertisements and content from user pages specially designed for users. The technical communication file is not designed to receive any other personal data from the main memory. Most browsers are configured to accept the technical communication file by default; however, users can always change the browser settings so that the technical communication file is blocked or a notification is made upon receiving a technical communication file.
+Who Can Access to Your Data?
+Humeyra Patisserie may transfer your personal data and any new data obtained using such personal data to restaurants for the purpose of fulfilling the objectives set out in this Privacy Policy, in a limited scope for providing such services. In this context, Humeyra Patisserie will also be able to transfer your personal data to Delivery Hero GmbH and Luxembourg Investment Company 43 S.A.R.L., which Humeyra Patisserie is affiliated to, and also its shareholders, subsidiaries, public authorities and private legal entities. Anonymized or limited data transfer can be made to third parties and suppliers who benefit from the services of our business partners and further approval can be obtained in such cases.
+Humeyra Patisserie may share your personal data with third parties such as outsourced service providers, hosting service providers including those that send e-mails and SMS’, and law firms for improving your user experience (including improvement and personalization), security assurance, detection of fraudulent or unauthorized use, investigation of operational evaluation, troubleshooting of site services and any other purpose stated in this Privacy Policy.
+ As Data Owner, you acknowledge that you agree in advance to this effect that third parties may store your personal data on their servers at any place in the world, provided that they are limited to the above-mentioned purposes.
+As Data Owner, you undertake that your personal data which this Privacy Policy covers is complete, accurate and up-to-date and that you will update it immediately in the event of any change to this information. If you fail to update the information, Humeyra Patisserie will not have any responsibility.
+As Data Owner, you acknowledge that you may not fully utilize the operation of the Site or the Mobile application in the event that you made a claim that would result in the inability of Humeyra Patisserie to use any of your personal data, and you declare that you will bear all responsibilities arising therefrom.
+ For How Long Do We Store Your Data?
+Your personal data you share with Humeyra Patisserie will be kept for the period required for the fulfillment of the purposes set out in this Privacy Policy and for the time limits set forth in the applicable legislation. In addition, your personal data may be retained for a limited purpose of defending against any dispute that may arise between you and Humeyra Patisserie
+. How Do We Ensure the Security of Your Data?
+Humeyra Patisserie takes necessary technical and administrative precautions and has necessary audits performed to ensure prevention of
+•	illegal processing of personal data,
+•	illegal access to personal data, and
+•	protection of personal data
+ </string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_title"><![CDATA[Privacy & Policy]]></string>
+    <string name="this_week_50_percent_discount_on_brownies">This week, 50 percent discount on brownies</string>
+    <string name="see_all_memories">See all memories ➝</string>
+    <string name="orders">Orders</string>
+    <string name="log_out">Log Out</string>
+    <string name="reservation">Reservation</string>
+    <string name="notification">Notification</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="our_new_products">Our New Products</string>
+    <string name="make_reservation">Make reservation</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="others">Others</string>
+    <string name="jeniffer_aniston">Jeniffer Aniston</string>
+    <string name="very_delicious">Very delicious</string>
+    <string name="_10">10</string>
+    <string name="_1">$1</string>
+    <string name="cake">Cake</string>
+    <string name="_0">$0</string>
+    <string name="total">Total :</string>
+    <string name="buy">buy</string>
+    <string name="reset_password">reset password</string>
+    <string name="email">Email</string>
+    <string name="hello_there_welcome_back">Hello There, Welcome Back !</string>
+    <string name="email_login">email</string>
+    <string name="log_n">Logın</string>
+    <string name="forget_my_password">Forget my password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="turn_on_notifications">Turn on notifications</string>
+    <string name="make_select_on">make selectıon</string>
+    <string name="reset_your_password_w_th">Reset your password wıth ;</string>
+    <string name="via_sms">Via sms</string>
+    <string name="via_email">Via email</string>
+
+    <string name="_12">$12</string>
+    <string name="the_time">The time</string>
+    <string name="total_price">Total price</string>
+    <string name="complete_reservation">Complete Reservation</string>
+    <string name="number_of_people">Number of people</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="update">Update</string>
+    <string name="my_old_reservations">My Old Reservations</string>
+    <string name="my_orders">My Orders</string>
+    <string name="s_gn_up">Sıgn Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="username1">username</string>
+
+    <string name="phone_number">phone number</string>
+    <string name="adress">adress</string>
+    <string name="password_again">password again</string>
+
+    <string name="let_s_create_an_account">Let\'s create an account</string>
+    <string name="home_services">HOME SERVICES</string>
+    <string name="you_can_order_your_dessert_online_and_enjoy_it_without_leaving_your_home">You can order your dessert online and enjoy it without leaving your home.</string>
+    <string name="skip">Skip</string>
+    <string name="your_profile_and_features">Your Profile and Features</string>
+    <string name="this_application_allows_you_to_order_dessert_as_well_as_create_your_own_profile_you_can_share_your_own_recipes_in_addition_you_can_evaluate_your_orders_by_voting_and_commenting">This application allows you to order dessert as well as create your own profile. You can share your own recipes. In addition, you can evaluate your orders by voting and commenting</string>
+
+    <string name="choose_the">Choose the</string>
+    <string name="food_which_you_want">Food which you want</string>
+    <string name="go_to_chart">Go to chart ➝</string>
+    <string name="code_ver_f_cat_on">code verıfıcatıon</string>
+    <string name="please_enter_the_one_time_code_sent_on_your_phone">Please enter the one time code sent on your phone</string>
+    <string name="verify_code">Verify code</string>
+    <string name="brownie">Brownie</string>
+</resources>

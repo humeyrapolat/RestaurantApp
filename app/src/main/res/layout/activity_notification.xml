@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F9"
+    android:padding="10dp"
+    tools:context=".notification">
+
+
+    <ImageView
+        android:id="@+id/bactToSetting"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:padding="3dp"
+        android:elevation="3dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/memories_bg">
+
+
+        <TextView
+            android:id="@+id/txt_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/reem_kufi"
+            android:paddingStart="15dp"
+            android:text="@string/turn_on_notifications"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            tools:ignore="RtlSymmetry" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_notf"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="52dp"
+            android:contextClickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_notification"
+            app:layout_constraintTop_toTopOf="@+id/txt_notification"
+            app:layout_constraintVertical_bias="0.59" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

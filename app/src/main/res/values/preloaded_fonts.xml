@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/alex_brush</item>
+        <item>@font/andika</item>
+        <item>@font/athiti_extralight</item>
+        <item>@font/autour_one</item>
+        <item>@font/reem_kufi</item>
+    </array>
+</resources>

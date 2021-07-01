@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F0EF"
+    tools:context=".SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/minilogom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtView_Welcome_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/reem_kufi"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="@color/numberButton"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/SignUp_editTxt_username"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/username1"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#BEA7A0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_msg2"
+         />
+
+    <EditText
+        android:id="@+id/SignUp_editTxtEmail"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#BEA7A0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_editTxt_username"
+         />
+
+    <Button
+        android:id="@+id/SignUp_btn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/reem_kufi"
+        android:onClick="createUser"
+        android:text="@string/s_gn_up"
+        app:backgroundTint="#CD5C5C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_editTxtDOB" />
+
+    <TextView
+        android:id="@+id/SignUp_txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/reem_kufi"
+        android:onClick="navigateUserToLogin"
+        android:text="login"
+        android:textColor="#73C6B6"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_btn" />
+
+
+    <EditText
+        android:id="@+id/SignUp_editTxtPhone"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:paddingStart="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#BEA7A0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_editTxtConfirmPassword" />
+
+
+    <EditText
+        android:id="@+id/SignUp_editTxtDOB"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/adress"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#BEA7A0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_editTxtPhone" />
+
+    <EditText
+        android:id="@+id/SignUp_editTxtConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="@string/password_again"
+        android:inputType="textPassword"
+        android:paddingStart="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#BEA7A0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_editTxtPassword" />
+
+
+    <EditText
+        android:id="@+id/SignUp_editTxtPassword"
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edit_txt"
+        android:ems="10"
+        android:fontFamily="@font/reem_kufi"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingStart="20sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#BEA7A0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignUp_editTxtEmail" />
+
+    <TextView
+        android:id="@+id/txtView_msg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/reem_kufi"
+        android:gravity="center"
+        android:text="@string/let_s_create_an_account"
+        android:textColor="#73C6B6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/SignUp_editTxtEmail"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/SignUp_editTxtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Welcome_signup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

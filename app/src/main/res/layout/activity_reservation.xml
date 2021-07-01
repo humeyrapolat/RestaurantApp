@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F9"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/goBack8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="20sp"
+        android:elevation="3dp"
+        android:padding="3dp"
+        android:src="@drawable/back" />
+
+    <EditText
+        android:id="@+id/date_input"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/memories_bg"
+        android:drawableStart="@drawable/ic_date"
+        android:drawablePadding="12dp"
+        android:hint="@string/select_date"
+        android:inputType="none"
+        android:padding="5dp"
+        android:textColorHint="#7B6B64"
+        android:elevation="5dp"
+        android:shadowColor="@color/red"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/time_input"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/memories_bg"
+        android:drawableStart="@drawable/ic_time"
+        android:drawablePadding="12dp"
+        android:hint="@string/select_time"
+        android:elevation="5dp"
+        android:shadowColor="@color/red"
+        android:inputType="none"
+        android:padding="5dp"
+        android:textColorHint="#7B6B64"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/num_person"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_res_person"
+        android:drawablePadding="12dp"
+        android:background="@drawable/memories_bg"
+        android:padding="5dp"
+        android:hint="@string/number_of_people"
+        android:elevation="5dp"
+        android:shadowColor="@color/red"
+        android:inputType="number"
+        android:textColorHint="#7B6B64"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/complete_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/selected_category"
+        android:text="@string/complete_reservation" />
+</LinearLayout>

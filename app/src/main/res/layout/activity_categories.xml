@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="90dp"
+    android:layout_height="110dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="30dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:backgroundTint="@color/white"
+        android:outlineAmbientShadowColor="#F2D7D5"
+        android:outlineSpotShadowColor="#F2D7D5"
+        app:cardCornerRadius="23dp"
+        app:cardElevation="8dp"
+        app:strokeColor="#F2D7D5"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:id="@+id/ll_background"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                tools:src="@drawable/cakelogo" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Cake"
+                android:gravity="center"
+                android:fontFamily="@font/reem_kufi"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>
